@@ -1,57 +1,57 @@
 body{
-    background-color: #1D3557;
+    background-color: #DEE2E6;
+    margin: 2% 5%;
 
-    padding: 1%;
-    margin: auto;
+    box-shadow: 5px -10px 50px #ADB5BD;
 }
-
-
-
 /* Container Styles */
-
 .container{
-    background-color: #F1FAEE;
-    padding: 1em 2em;
-    margin: 0em 5em 0em 5em;
-
-    box-shadow: 5px 5px 50px grey;
+    background-color: #F8F9FA;
+    padding: 1% 2%;
 }
 
 /* Main Blocks */
-
-
 section{
     display: inline-block;
     width: 45%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em 1em 10em 1em;
-}
 
-#right-block{
-    text-align: right;
-    /* height: 10%;
-    width: auto;
-    object-fit: contain; */
+    position: relative;
+
 }
 
 /* Nav Bar */
 
-#ul-nav{
-    list-style-type: none;
-    
-    padding-left: 1%;
+nav{
+    text-align: left;
 }
 
-li{
-    display: inline;
+ul{
+    list-style-type: none;
+    padding-left: 0%;
 }
+
+#ul-nav > li{
+    display: inline-block;
+}
+
+li > a{
+    text-decoration: none;
+}
+
+/* Social Icons */
+
+#ul-icons > li{
+    display: inline-block;
+}
+
+.icons{
+    text-align: right;
+}
+
 
 /* Main Image */
 
 #main-pic{
+    position: relative;
     width: 100%;
-    height: 50%;
-    object-fit: contain;
 }
