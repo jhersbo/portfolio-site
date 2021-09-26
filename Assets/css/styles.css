@@ -1,0 +1,51 @@
+body{
+    background-color: #1D3557;
+
+    padding: 1%;
+    margin: auto;
+}
+
+
+
+/* Container Styles */
+
+.container{
+    background-color: #F1FAEE;
+    padding: 1em 2em;
+    margin: 0em 5em 0em 5em;
+
+    box-shadow: 5px 5px 50px grey;
+}
+
+/* Main Blocks */
+
+
+section{
+    display: inline-block;
+    width: 50%;
+    margin: auto
+}
+
+#right-block{
+    text-align: right;
+    width: fit-content;
+    /* padding-left: 10%; */
+}
+
+/* Nav Bar */
+
+#ul-nav{
+    list-style-type: none;
+    
+    padding-left: 1%;
+}
+
+li{
+    display: inline;
+}
+
+/* Main Image */
+
+#main-pic{
+    width: 100%;
+}
