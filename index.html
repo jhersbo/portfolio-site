@@ -76,9 +76,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div id="image" class="fill">
+                    <!-- <div id="image" class="fill">
                         <img id="main-pic" src="http://placekitten.com/g/600/200" alt="Example Photo">
-                    </div>
+                    </div> -->
                 </section>
             </main>
             <footer>
@@ -93,14 +93,19 @@
                             <label for="email" >Enter your email address.</label>
                             <input type="text" required>
                             <!-- REDO THIS PART -->
+
                             <div id="radio">
                                 <label for="radio">Would you like to be notified when I update my portfolio?</label>
-                                <input type="radio" name="yes" value="yes">
+                                <input type="radio" name="notify" value="yes" checked>
                                 <label for="yes">Yes</label>
-                                <input type="radio" name="no" value="no">
+                                <input type="radio" name="notify" value="no">
                                 <label for="no">No</label>
                             </div>
-                            <button type="submit" name="submit" formmethod="GET">SUBMIT</button>
+
+                            <div id="button">
+                                <button type="submit" name="submit" formmethod="GET">SUBMIT</button>
+                            </div>
+                            
                         </form>
                     </div>
                     <div id="placeholder">

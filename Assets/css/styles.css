@@ -1,0 +1,56 @@
+main{
+    position: relative;
+    display: inline-flex;
+}
+
+body{
+    padding: 1em 2em 1em 2em;
+    background-color: #DEE2E6;
+}
+
+.container{
+    padding: 1%;
+    background-color: #F8F9FA;
+
+    box-shadow: 5px 5px 40px #6C757D;
+}
+
+#left-block{
+    width: 50%;
+
+    padding-right: 5em;
+}
+
+#right-block{
+    width: 50%;
+
+    background-image: url(http://placekitten.com/g/900/300);
+}
+
+ul{
+    padding-left: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+
+    padding: 1px 5px 0px 5px;
+}
+
+#ul-icons{
+    margin-top: 0px;
+}
+
+.icons{
+    text-align: right;
+
+    font-size: 28px;
+}
+
+
+
