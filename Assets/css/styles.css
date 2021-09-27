@@ -9,21 +9,29 @@ body{
 }
 
 .container{
-    padding: 1%;
+    padding: 0% 0% 1% 1%;
     background-color: #F8F9FA;
 
     box-shadow: 5px 5px 40px #6C757D;
 }
 
 #left-block{
-    width: 50%;
+    width: 45%;
     padding-right: 5em;
+    padding-top: 1%;
+    padding-left: 2%;
 }
 
 #right-block{
-    width: 50%;
+    width: 55%;
 
-    background-image: url(http://placekitten.com/g/900/300);
+    background-image: url(/Users/henryersbo/Desktop/FS-ongoing-projects/portfolio-site/Assets/images/38654427_1980382788659048_3598977986100985856_n.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    padding-top: 1%;
 }
 
 ul{
@@ -51,5 +59,7 @@ li{
     font-size: 28px;
 }
 
-
+header{
+    padding-top: 5%;
+}
 
